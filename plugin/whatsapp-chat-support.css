@@ -38,10 +38,10 @@
         vertical-align: middle;
         padding: 9px 18px;
         border-radius: 50px;
-        background-image: url("/assets/img/whatsap.ico");
-        background-size: 50px;
-        /* background: #26C281; */
-        /* color: #fff; */
+        /* background-image: url("/assets/img/whatsap.ico");
+        background-size: 50px;*/
+         background: #26C281; 
+         color: #fff; 
         display: inline-block;
         margin-right: 3px;
         cursor: pointer;
