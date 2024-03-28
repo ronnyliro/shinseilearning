@@ -1,0 +1,74 @@
+
+.colorfuente {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgba(255, 66, 71, 0.7);
+    
+}
+.colorfuente {
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.tamañologo {
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    margin-top: -10px;
+    margin-left:  -110px;
+    margin-bottom: -80px;
+    background-color:rgb(236, 230, 232) ;
+    border-radius: 40%;
+    
+    
+}
+
+.margenes {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+
+}
+
+.manga img{
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.fondo {
+    background-color: rgb(255, 192, 203);
+}
+/* color de fuente */
+.fondo h2, h3, h4  {
+     
+    color: rgb(40, 43, 44);
+}
+ .fondo h2  {
+    font-size: 60px;
+    
+}
+
+.fondo h3 {
+    
+   font-size: 32px;
+}
+.fondo h4  {
+    padding-left: 10px;
+    font-size: 35px;
+ }
+
+.uniquifier  {
+    font-family: "Imbue", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+ /*color del nombre en el foote*/
+.colorfoote h2{
+    color: rgb(255, 192, 203);
+
+}
