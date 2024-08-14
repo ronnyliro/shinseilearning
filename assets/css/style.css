@@ -1,17 +1,45 @@
 
-.colorfuente {
-    font-family: "DM Serif Display", serif;
+
+@font-face {
+    font-family: "BalmyRegular";
+    src: url("../webfonts/BalmyRegular.eot");
+    src: url("../webfonts/BalmyRegular.woff")format("embedded-opentype"),
+    url("../webfonts/BalmyRegular.woff") format("woff"),
+    url("../webfonts/BalmyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+    
+
+/* Titulo Principal */
+.h1 {
+    font-family: "BalmyRegular";
     font-weight: 400;
+    font-size: 90px;
     font-style: normal;
     text-align: center;
-    color: rgba(255, 66, 71, 0.7);
+    color: rgb(217, 31, 81);
+    text-shadow: -1px -1px 0 white,
+                 -1px 1px 0 white,
+                 1px 1px 0 white,
+                 1px -1px 0 white ;  
+}
+#subtitulo{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color:rgb(236, 230, 232);
+    font-weight: 400;
+    font-size: 34px;
+    
     
 }
-.colorfuente {
-    font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: italic;
+/* link */
+.nav-link{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
 }
+
 .tamañologo {
     width: 150px;
     height: 150px;
@@ -40,12 +68,12 @@
 }
 
 .fondo {
-    background-color: rgb(255, 192, 203);
+    /* background-color: rgb(255, 192, 203); */
 }
 /* color de fuente */
 .fondo h2, h3, h4  {
      
-    color: rgb(40, 43, 44);
+    color: rgb(217, 31, 81);
 }
  .fondo h2  {
     font-size: 60px;
@@ -75,15 +103,18 @@
 
 .presentacion {
     padding: 40px 40px 60px 40px;
+    
 }
 .presentacion .row div{
 
-    
+   background-image: linear-gradient(#050404,#d91f51);
+    /* background-color: rgb(217, 31, 81); */
 }
 .presentacion-titulo{
-    font-size: 25px;
-    font-weight: bold;
+    font-family: "BalmyRegular";
+    font-size: 34px;
     margin: 10px 0;
+    color: white;
 }
 .presentacion i {
     font-size: 2.5rem;
@@ -97,7 +128,7 @@
     font-weight: bold;
 }
 .badge {
-    background-color: blue;
+    background-color: black;
 }
 .presentacion .columna{
     padding: 20px;
@@ -111,4 +142,22 @@
 .presentacion .columna:hover{
     color: white;
     background-color: #1b1b32;
+}
+.principal{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+    url(../img/estudi.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+/* carrucel */
+.ticarru{
+    color: white;
+    font-size: 21px;
+}
+.sucarru{
+    color: white;
+}
+
+/* acordeon */
+.tituacordeon button{
+    color: white;
 }
